@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12102" started-at="2020-02-29T12:52:00Z" finished-at="2020-02-29T12:52:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12102" started-at="2020-02-29T12:52:00Z" finished-at="2020-02-29T12:52:12Z">
+      <class name="datadriven.DataDrivenTest_AddNewEmployees">
+        <test-method status="PASS" signature="postNewEmployees(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriven.DataDrivenTest_AddNewEmployees@be83e4]" name="postNewEmployees" duration-ms="6325" started-at="2020-02-29T17:52:03Z" data-provider="empdataprovider" finished-at="2020-02-29T17:52:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[faizan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[500000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewEmployees -->
+        <test-method status="PASS" signature="postNewEmployees(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriven.DataDrivenTest_AddNewEmployees@be83e4]" name="postNewEmployees" duration-ms="972" started-at="2020-02-29T17:52:10Z" data-provider="empdataprovider" finished-at="2020-02-29T17:52:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4354656]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewEmployees -->
+        <test-method status="PASS" signature="postNewEmployees(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:datadriven.DataDrivenTest_AddNewEmployees@be83e4]" name="postNewEmployees" duration-ms="985" started-at="2020-02-29T17:52:11Z" data-provider="empdataprovider" finished-at="2020-02-29T17:52:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Irfan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewEmployees -->
+      </class> <!-- datadriven.DataDrivenTest_AddNewEmployees -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
